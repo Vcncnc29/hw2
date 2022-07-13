@@ -1,0 +1,260 @@
+body{
+    margin:0 0;
+}
+
+nav{
+    background-color:rgb(11, 52, 106);
+    height: 40px;
+ 
+   
+}
+.pulsante{
+    border-radius: 60px;
+    background-color: wheat;
+    cursor: pointer;
+}
+.classe_label{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.div_commenti{
+    background-color: antiquewhite;
+}
+.misura_p{
+    font-size: larger;
+    color: blue;
+}
+.misura_span{
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.allunga_input{
+    width: 97%;
+}
+.div_text{
+    display: flex;
+}
+article{
+    background-size: cover;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/realistic-technology-background_52683-73672.jpg");
+
+}
+.utente{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid lightslategrey;
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 15px;
+} 
+.nome{
+    margin-bottom: 15px;
+    display: flex;
+   justify-content: center;
+
+}
+.utente p{
+    font-size: 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: -6px;
+}
+
+
+#preferiti,#carrello{
+    width: 15vw;
+    height: 30px;
+    border-radius: 40px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    margin-top: -6px;
+}
+
+
+.conteiner{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 70vw;
+    
+    flex-wrap: wrap;
+}  
+.conteiner2{
+    display: flex;
+    justify-items:flex-start;
+    justify-content: space-around;
+    width: 70vw;
+    
+    flex-wrap: wrap;
+}  
+
+.super{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.hidden{
+    display: none;
+}
+
+.uno{
+    display: flex;
+    border: 2px solid lightgray;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+
+}
+.uno2{
+    display: flex;
+    border: 2px solid lightgray;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    
+}
+.div_contenente_x{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.back,.dimension_x{
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+}
+.log{
+    display: flex;
+    justify-content: flex-end;
+}
+.log2{
+    display: flex;
+    justify-content: space-between;
+}
+.log a,.log2 a{
+    font-size: 22px;
+    margin-right: 40px;
+    color: white;
+   
+}
+.rimuovi{
+    cursor:pointer;
+    color: red;
+    font-size: larger;
+}
+.cuore,.carrello{
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+}
+.separa,.pulsanti{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px){
+    .conteiner{
+        width:90vw;
+       
+        
+    }
+    .uno{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 200px;
+        height: 200px;
+    }
+    .uno img{
+        width: 200px;
+        height: 200px;
+    }
+    .uno .cuore,.uno .carrello{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media (max-width: 800px){
+    .conteiner2{
+        width:90vw;
+       
+        
+    }
+    .uno2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 200px;
+        height: 200px;
+    }
+    .uno2 img{
+        width: 200px;
+        height: 200px;
+    }
+    .uno2 .cuore,.uno2 .carrello{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+@media (max-width: 600px){
+    .conteiner{
+        width:90vw;
+       
+        
+    }
+    .uno{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 150px;
+        height: 150px;
+    }
+    .uno img{
+        width: 150px;
+        height: 150px;
+    }
+    .uno .cuore,.uno .carrello{
+        width:15px;
+        height: 15px;
+    }
+
+}
+@media (max-width: 600px){
+    .conteiner2{
+        width:90vw;
+       
+        
+    }
+    .uno2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 150px;
+        height: 150px;
+    }
+    .uno2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .uno2 .cuore,.uno2 .carrello{
+        width:15px;
+        height: 15px;
+    }
+
+}

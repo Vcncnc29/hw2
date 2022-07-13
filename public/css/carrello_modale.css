@@ -1,0 +1,27 @@
+.modale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_x{
+    display: flex;
+    justify-content:flex-end;
+    height: 30px;
+}
+.allunga_label{
+    width: 100%;
+    height: 30px;
+}
+.ingrandisci{
+    width: 400px;
+    height: 400px;
+}
+.dimension_x{
+    width: 30px;
+    height: 30px;
+}
+
+.hidden{
+    display: none;
+}

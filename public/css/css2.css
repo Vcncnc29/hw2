@@ -1,0 +1,103 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width:50vw;
+    border-radius:40px;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+body{
+    margin:0;
+}
+section{ 
+    border-radius:40px;
+}
+
+article{
+    display: flex; 
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://www.liguria.cgil.it/wp-content/uploads/tecnologia_strade-scaled-1.jpg);
+    background-size:cover;
+}
+.registrazione,.login{
+    display: flex;
+    justify-content: center;
+}
+.registrazione p,.login p{
+    margin-top: 6px;
+    color: black;
+    font-size: medium;
+}
+a,p a{
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 4px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    width: 50%;
+   
+}
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+}
+.i input{
+    font-size: large;
+}
+.password1 label,.email1 label,
+.nome1 label,.cognome1 label,.indirizzo1 label,.conf_password1 label{
+    font-size: 22px;
+    font-family:Georgia,Times, serif;
+}
+.password1 input,.email1 input,
+.nome1 input,.cognome1 input,.indirizzo1 input,.conf_password1 input{
+    border: 2px solid blue;
+    width:60%;
+    height: 22px;
+    border-radius: 40px;
+    
+}
+.hidden{
+    display: none;
+}
+.email_error,.password_error,.cognome_error,
+.conf_password_error,.indirizzo_error,.nome_error{
+    display: flex;
+    justify-content: center;
+    color: red;
+   
+}
+p{   
+    font-size: 15px;
+    margin:auto 0 auto 0;
+ }
+
+#invia{
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+    border: solid lightblue;
+    background-color:lightblue;
+}
+.error{
+    color: red;
+    font-size:40px;
+}
